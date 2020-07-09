@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+aioredis = {index = "https://nexus-cicd.brmtocp.banregio.com/repository/next-python-central/simple",version = "*"}
+uvloop = {index = "https://nexus-cicd.brmtocp.banregio.com/repository/next-python-central/simple",version = "*"}
+
+[requires]
+python_version = "3.6"
